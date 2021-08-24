@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: black;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    font-size: 24px;
+}
+
+body{
+    background-image: url("/img/VnyYAB.jpg");
+    color: white;
+}
+
+.random-text{
+    text-align: center;
+}
+
+footer{
+    background: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
